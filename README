@@ -1,2 +1,36 @@
-This is test
+yabc V1.00
+-------------
+
+Small utility to display bits dump of number.
+
+Overview
+----------
+
+This utility was created for the purpose to provide bits dump of value and
+calculate value of given bits range. This is very often required for
+hardware programming. e.g. we get some register value and need to use
+bits range [4-18] to calculate some specific hardware parameter. The goal
+of this utility is to simplify given task.
+
+Usage
+----------
+Usage is straightforward. Run utility and enter value using prompt. 
+The following commands are supported:
+        h               - Display short help;
+        q               - Quit
+        Rx,y            - Display value for bits in given range. Note,
+                          then x should be less or equal than y. Spaces are
+                          not allowed. This operation uses the current number
+                          to calculate range value.
+        x                - New number. You have to input number based on "C"
+                           standard.  e.g. 0x10 - hex. number
+                                           10   - dec. number
+                                           AA   - invalid number.
+
+
+
+If you  have any  questions, comments,  or you  notice any
+problems please communicate:
+
+Serguei Sagalovitch (ssagalov@gmail.com)
 
