@@ -1,4 +1,4 @@
-AC_INIT([yabc], [1.0], [ssagalov@gmail.com])
+AC_INIT([yabc], [1.0], [ssagalov@])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_PROG_CC
 AC_CONFIG_HEADERS([config.h])
