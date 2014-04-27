@@ -1,4 +1,4 @@
 bin_PROGRAMS  = yabc
-hello_SOURCES = main.c
+yabc_SOURCES  = main.c
 
 
